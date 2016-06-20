@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;                  <!-- this is to CENTER STUFF! -->
+  padding:0 5%;
+}
+
+#logo {
+  text-align: center;
+  margin; 0;
+}
+
+a {
+   color: #6ab47b;
+}
+header {
+    color: #C3D4FF;
+    border-color: #599a68;
+}
+
+h1, h2 {
+   color: lightblue;
+   background-color: #C3D4FF;
+}
+nav {
+  background: #60C0FF;
+}
+nav a, nav a:visited {
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
