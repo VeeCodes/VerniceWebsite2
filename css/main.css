@@ -1,45 +1,103 @@
+/***** 
+GENERAL
+******/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
 a {
   text-decoration: none;
 }
 
-#wrapper {
-  max-width: 940px;
-  margin: 0 auto;                  <!-- this is to CENTER STUFF! -->
-  padding:0 5%;
+img {
+  max-width: 100%;
 }
+
+/******
+HEADING
+*******/
 
 #logo {
   text-align: center;
-  margin; 0;
+  margin: 0;
 }
 
-a {
-   color: #6ab47b;
+h1 {
+   font-family: 'Paprika', cursive;
+   margin: 15px 0;
+   font-size: 2.5em;
+   color: #9A8FBF;
 }
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #6F4F7E;
+}
+
+/*************
+PAGE: PORTFOLIO
+**************/
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #EFBFB0;
+  color:#EFBFB0;
+ 
+}
+
+
+
+/*****           
+COLORS
+*****/
+
+/* SITE BODY*/
+body {
+  background-color: #F8DCD9;
+  color: #EFBFB0;
+}
+
+/* HEADER*/
 header {
-    color: #C3D4FF;
-    border-color: #599a68;
+  background: #B8BDD9;
+  border-color: #9A8FBF;
 }
 
-h1, h2 {
-   color: lightblue;
-   background-color: #C3D4FF;
-}
+/* NAV BACKGROUND ON MOBILE*/
 nav {
-  background: #60C0FF;
+  background: #9A8FBF;
 }
+
+/* LOGO TEXT */
+ h2 {
+  color: #F8DCD9;
+}
+
+/* LINKS */
+a {
+  color: #6F4F7E;
+}
+
+/* NAV LINK */
 nav a, nav a:visited {
-    color: green;
+  color: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* SELECTED NAV LINK */
+nav a.selected, nav a:hover {
+  color: #E8C7E7;
+}
 
